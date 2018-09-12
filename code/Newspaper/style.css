@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.container{
+  overflow: auto;
+  margin: auto;
+  width: 80%;
+
+}
+
+.container .box{
+  width: 33.33%;
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+.container .box img{
+ width: 100%;
+}
+
+img{
+  opacity: 1.0;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.box-text{
+  position: absolute;
+  bottom:20px;
+  background: white;
+  width: 80%;
+
+}
+
+h1{
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 0.5;
+}
+
+p{
+  padding-left: 15px;
+  font-size: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px){
+  .container .box{
+    width: 100%;
+
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+  .container .box{
+    width: 50%;
+
+  }
+}
