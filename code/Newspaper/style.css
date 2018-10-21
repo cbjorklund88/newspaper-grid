@@ -2,16 +2,34 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   background: #f2f1f4;
   color: #19171c;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 0.5;
+}
+
+p{
+  padding-left: 15px;
+  font-size: 12px;
+  text-decoration: underline;
 }
 
 .container{
   overflow: auto;
   margin: auto;
   width: 80%;
-
 }
 
 .container .box{
@@ -38,33 +56,16 @@ img:hover {
   bottom:20px;
   background: white;
   width: 80%;
-
-}
-
-h1{
-  padding-left: 15px;
-  font-size: 15px;
-  font-family: 'Noto Sans', sans-serif;
-  line-height: 0.5;
-}
-
-p{
-  padding-left: 15px;
-  font-size: 12px;
-  font-family: 'Noto Sans', sans-serif;
-  text-decoration: underline;
 }
 
 @media (max-width: 600px){
   .container .box{
     width: 100%;
-
   }
 }
 
 @media (min-width: 600px) and (max-width: 900px){
   .container .box{
     width: 50%;
-
   }
 }
