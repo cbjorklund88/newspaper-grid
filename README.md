@@ -1,4 +1,4 @@
-# Sprint 1: Newspaper Assignment
+Newspaper Assignment
 
 The part of kit we're focussing on is this:
 
