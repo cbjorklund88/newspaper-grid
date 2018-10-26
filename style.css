@@ -17,7 +17,7 @@ h1 {
 h2{
   padding-left: 15px;
   font-size: 15px;
-  line-height: 0.5;
+  line-height: 20px;
 }
 
 p{
@@ -61,6 +61,12 @@ img:hover {
 @media (max-width: 600px){
   .container .box{
     width: 100%;
+  }
+  .box-text {
+    padding: 10px 0;
+  }
+  h2, p {
+    margin: 0;
   }
 }
 
